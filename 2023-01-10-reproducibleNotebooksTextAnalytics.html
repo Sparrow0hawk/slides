@@ -7,7 +7,7 @@
 		<title>Reproducible Notebooks for Text Analytics</title>
         <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/jupyter-favicon.ico">
 
-
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet" media="all">
 
 		<link rel="stylesheet" href="reveal.js/dist/reset.css">
 		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
@@ -21,7 +21,62 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slides Index</section>
+				<section class="center">
+                    <h2>Reproducible Notebooks for Text Analytics</h2>
+                </section>
+
+                <!-- about slide -->
+                <section id="about">
+                    <h2>Whoami</h2>
+                    <ul>
+                        <li>Alex Coleman, Research Software Engineer</li>
+                        <li>Part of Research Computing within Central IT</li>
+                        <li>Background in Python/R, data science with a sprinkle of NLP</li>
+                    </ul>
+                    <ul class="socials">
+                        <li><a href="https://github.com/sparrow0hawk">
+                                <i class="fab fa-github"></i> <span> sparrow0hawk</span></a></li>
+                        <li><a href="https://twitter.com/alex_c0leman">
+                                <i class="fab fa-twitter"></i><span> alex_c0leman</span></a></li>
+                    </ul>
+                </section>
+
+
+                <section>
+                    <h2> What are computational notebooks?</h2>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Drawbacks of computational notebooks</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>Execution order</h2>
+                    </section>
+
+                    <section>
+                        <h2>Data availability</h2>
+                    </section>
+
+                    <section>
+                        <h2>Lack of modularisation</h2>
+                    </section>
+
+                    <section>
+                        <h2>Sharing and version control</h2>
+                    </section>
+
+                </section>
+
+                <section>
+                    <h2>Tools for making notebooks more reproducible!</h2>
+                </section>
+
+                <section class="center">
+                    <h2>Thanks for listening!</h2>
+                </section>
+
 			</div>
 		</div>
     <!-- END OF SLIDES SECTION -->
@@ -36,6 +91,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+                center: false,
+                //width: '1920',
+                //height: '458',
+                //disableLayout: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]

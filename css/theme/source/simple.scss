@@ -38,3 +38,16 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+// custom css
+
+#about .socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 4rem;
+}
+
+
